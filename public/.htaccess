@@ -1,0 +1,16 @@
+# Apache configuration for Single Page Application and PHP API
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # Serve existing files and directories directly
+  RewriteCond %{REQUEST_FILENAME} -f [OR]
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^ - [L]
+
+  # Route API requests to index.php if on PHP server
+  RewriteRule ^api/(.*)$ index.php [QSA,L]
+
+  # Fallback to index.html for client-side routing
+  RewriteRule ^ index.html [L]
+</IfModule>

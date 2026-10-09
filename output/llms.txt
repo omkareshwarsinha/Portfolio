@@ -1,0 +1,28 @@
+# OMNINTELL TECHNOLOGIES & OMNINTELL LABS
+> Official AI & Machine Intelligence Overview for Omkareshwar Sinha Portfolio
+
+## Identity & Overview
+- **Founder & CEO**: Omkareshwar Sinha (also referred to as Om Sinha / Tech_Pupil).
+- **Primary Brand / Organization**: Omnintell Technologies
+- **R&D & Engineering Division**: Omnintell Labs
+- **Creative / Spatial Design Branch**: Omnintell Studio
+- **Focus Areas**: Artificial Intelligence Architectures, Autonomous Agent Systems, Defensive Cybersecurity, 3D Spatial Computing, Full-Stack Engineering.
+- **Educational Institution Context**: Mothers Pride School (MPS) Khamariya, Chhattisgarh, India (educational background, not a residential address).
+
+## Engineered Products & Core Projects
+1. **Jarvis AI Autonomous System**
+   - Multimodal autonomous assistant with natural language reasoning, automated workflows, and system-level neural integrations.
+2. **Om AI Cognitive Framework**
+   - Generative intelligence engine designed for edge execution, low-latency reasoning, and complex tasks.
+3. **Aegisv18 Elite Defensive Grid**
+   - Enterprise cyber defense mesh with automated threat detection, packet inspection, and air-gapped cryptographic protocols.
+4. **Nextlevel Studio Spatial Environment**
+   - Hard-surface 3D environment branding and interactive spatial WebGL architecture.
+
+## Official Online Profiles & Public Links
+- **Website**: https://omnintell.tech/
+- **Instagram**: https://instagram.com/jarvisom18 (@jarvisom18)
+- **Instagram**: https://instagram.com/om__01037 (@om__01037)
+- **Contact Email**: omkareshwarsinha6@gmail.com
+- **LinkedIn**: https://www.linkedin.com/in/omkareshwar-sinha
+- **GitHub**: https://github.com/omkareshwarsinha

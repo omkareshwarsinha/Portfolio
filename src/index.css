@@ -1,0 +1,135 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  *, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  :root {
+    --theme-primary: #0284C7;
+    --theme-secondary: #7C3AED;
+    --theme-glow: #38BDF8;
+    --theme-bg: #F8FAFC;
+    --theme-card: rgba(255, 255, 255, 0.9);
+    --bg-main: var(--theme-bg);
+    --bg-panel: rgba(255, 255, 255, 0.85);
+    --bg-card: var(--theme-card);
+    --border-subtle: rgba(15, 23, 42, 0.08);
+    --border-medium: rgba(15, 23, 42, 0.14);
+    --text-main: #0F172A;
+    --text-muted: #475569;
+    --text-dim: #64748B;
+    --accent-cyan: var(--theme-primary);
+    --accent-purple: var(--theme-secondary);
+    --hero-heading-grad: linear-gradient(180deg, #0F172A 0%, #334155 100%);
+  }
+
+  html.dark {
+    --theme-primary: #00F0FF;
+    --theme-secondary: #8B5CF6;
+    --theme-glow: #38BDF8;
+    --theme-bg: #050811;
+    --theme-card: rgba(12, 17, 28, 0.85);
+    --bg-main: var(--theme-bg);
+    --bg-panel: #0D131F;
+    --bg-card: var(--theme-card);
+    --border-subtle: rgba(255, 255, 255, 0.08);
+    --border-medium: rgba(255, 255, 255, 0.16);
+    --text-main: #F8FAFC;
+    --text-muted: #94A3B8;
+    --text-dim: #64748B;
+    --accent-cyan: var(--theme-primary);
+    --accent-purple: var(--theme-secondary);
+    --hero-heading-grad: linear-gradient(180deg, #FFFFFF 15%, #94A3B8 100%);
+  }
+
+  html, body, #root {
+    background-color: var(--bg-main);
+    color: var(--text-main);
+    font-family: 'Kanit', sans-serif;
+    min-height: 100vh;
+    overflow-x: clip;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+}
+
+.font-tech {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.font-mono-code {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* 3D Stage & Card Rolling Helpers */
+.perspective-1000 {
+  perspective: 1000px;
+}
+.perspective-1200 {
+  perspective: 1200px;
+}
+.preserve-3d {
+  transform-style: preserve-3d;
+}
+.backface-hidden {
+  backface-visibility: hidden;
+}
+
+/* 3D Box Rolling Surface Accents */
+.box-glow-cyan {
+  box-shadow: 0 20px 50px -15px rgba(0, 240, 255, 0.18), 0 0 30px rgba(0, 240, 255, 0.08);
+}
+.box-glow-purple {
+  box-shadow: 0 20px 50px -15px rgba(182, 0, 168, 0.22), 0 0 30px rgba(118, 33, 176, 0.14);
+}
+
+/* Custom hero heading gradient class */
+.hero-heading {
+  background: var(--hero-heading-grad);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Smooth scrolling and animations */
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+html.dark ::-webkit-scrollbar-track {
+  background: #080B11;
+}
+html:not(.dark) ::-webkit-scrollbar-track {
+  background: #F1F5F9;
+}
+html.dark ::-webkit-scrollbar-thumb {
+  background: #1E293B;
+  border-radius: 9999px;
+}
+html:not(.dark) ::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #0284C7;
+}
+

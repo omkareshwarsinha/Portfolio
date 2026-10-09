@@ -1,0 +1,220 @@
+/**
+ * Omnintell Technologies & Omnintell Labs
+ * Modern Cyber-Aesthetic Design System & Animation Engine
+ * Founder & CEO: Omkareshwar Sinha (Jack)
+ */
+
+:root {
+  --bg-primary: #080B11;
+  --bg-secondary: #0E131E;
+  --bg-glass: rgba(18, 24, 38, 0.72);
+  --border-glass: rgba(255, 255, 255, 0.12);
+  --border-glow: rgba(0, 240, 255, 0.35);
+  --accent-cyan: #00f0ff;
+  --accent-purple: #7621B0;
+  --accent-magenta: #B600A8;
+  --accent-orange: #BE4C00;
+  --text-primary: #E6EDF3;
+  --text-secondary: #94A3B8;
+  --text-muted: #64748B;
+  --font-display: 'Space Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-sans: 'Kanit', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+/* Base resets & typography */
+html {
+  scroll-behavior: smooth;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: clip;
+  min-height: 100vh;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  selection-background-color: var(--accent-purple);
+  selection-color: #ffffff;
+}
+
+::selection {
+  background: var(--accent-purple);
+  color: #ffffff;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #080B11;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #7621B0, #00f0ff);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #00f0ff;
+}
+
+/* Glassmorphism & Cyber Card Utilities */
+.glass-panel {
+  background: var(--bg-glass);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--border-glass);
+  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.glass-panel:hover {
+  border-color: rgba(0, 240, 255, 0.4);
+  box-shadow: 0 10px 30px -10px rgba(0, 240, 255, 0.15), 0 0 20px -5px rgba(182, 0, 168, 0.15);
+}
+
+/* Hero Grand Metallic Gradient Heading */
+.hero-headline {
+  background: linear-gradient(180deg, #FFFFFF 0%, #D4E2EE 45%, #7C8BA1 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.glow-gradient-text {
+  background: linear-gradient(135deg, #00f0ff 0%, #B600A8 50%, #BE4C00 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Primary Multi-Stop Brand Button */
+.brand-btn-primary {
+  background: linear-gradient(123deg, #18011F 7%, #B600A8 37%, #7621B0 72%, #BE4C00 100%);
+  box-shadow: 0px 4px 18px rgba(181, 1, 167, 0.38), 0 0 0 1px rgba(255, 255, 255, 0.15) inset;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+.brand-btn-primary:hover {
+  transform: translateY(-2px) scale(1.02);
+  box-shadow: 0px 8px 28px rgba(181, 1, 167, 0.55), 0 0 15px rgba(0, 240, 255, 0.35);
+}
+
+.brand-btn-primary::after {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(60deg, transparent 40%, rgba(255, 255, 255, 0.2) 50%, transparent 60%);
+  transform: rotate(25deg) translateY(-100%);
+  transition: transform 0.65s ease;
+}
+
+.brand-btn-primary:hover::after {
+  transform: rotate(25deg) translateY(100%);
+}
+
+/* Subtle Secondary Glass Button */
+.brand-btn-secondary {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  backdrop-filter: blur(10px);
+  transition: all 0.25s ease;
+}
+
+.brand-btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.12);
+  border-color: var(--accent-cyan);
+  color: #ffffff;
+  transform: translateY(-2px);
+}
+
+/* Floating Animations */
+@keyframes floatSlow {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-8px) rotate(1deg); }
+}
+
+@keyframes pulseGlow {
+  0%, 100% { opacity: 0.4; filter: blur(35px); }
+  50% { opacity: 0.75; filter: blur(45px); }
+}
+
+@keyframes spinSlow {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.animate-float {
+  animation: floatSlow 6s ease-in-out infinite;
+}
+
+.aura-glow {
+  animation: pulseGlow 4s ease-in-out infinite;
+}
+
+/* 3D Tilt Card Perspective */
+.tilt-card {
+  transform-style: preserve-3d;
+  perspective: 1000px;
+  transition: transform 0.2s cubic-bezier(0.2, 0, 0, 1), box-shadow 0.2s ease;
+}
+
+.tilt-inner {
+  transform: translateZ(25px);
+  transition: transform 0.2s ease;
+}
+
+/* Project Media Cover Glow */
+.project-image-wrap {
+  position: relative;
+  overflow: hidden;
+}
+
+.project-image-wrap img {
+  transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1), filter 0.5s ease;
+}
+
+.glass-panel:hover .project-image-wrap img {
+  transform: scale(1.06);
+}
+
+/* Shimmer Progress Bars */
+.progress-bar-fill {
+  background: linear-gradient(90deg, #7621B0, #B600A8, #00f0ff);
+  background-size: 200% 100%;
+  animation: shimmerGradient 3s linear infinite;
+  transition: width 1.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes shimmerGradient {
+  0% { background-position: 100% 0; }
+  100% { background-position: -100% 0; }
+}
+
+/* Responsive Modal Styling */
+.modal-backdrop {
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  animation: fadeIn 0.25s ease-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(20px) scale(0.97); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+.modal-content-animated {
+  animation: slideUp 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}

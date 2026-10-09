@@ -1,0 +1,431 @@
+{
+  "password": "$2b$10$yWFDmuom0kJXuf7IeLbxmuM6K3DiTFmXypCdMNRqHT5qI3xVEtiOC",
+  "userName": "Omkareshwar Sinha",
+  "userTagline": "CEO & Founder — Omnintell Technologies · CEO & Founder — Omnintell Labs · AI Architect & Systems Engineer",
+  "userBio": "CEO & Founder of Omnintell Technologies and Omnintell Labs based in Chhattisgarh, India. 10th Grade Innovator from Mothers Pride School (MPS) Khamariya. A full stack developer, ethical hacker, and AI architect building intelligent technology for the real world — creator of Jarvis AI, Om AI, and Aegis.",
+  "location": "Chhattisgarh, India",
+  "institutionLocation": "Khamariya, Chhattisgarh, India",
+  "school": "Mothers Pride School (MPS) Khamariya, Chhattisgarh, India",
+  "companies": [
+    "Omnintell Technologies (CEO & Founder)",
+    "Omnintell Labs (CEO & Founder)"
+  ],
+  "siteSettings": {
+    "siteName": "Omnintell Technologies",
+    "siteTitle": "Omkareshwar Sinha — CEO & Founder | Omnintell Technologies & Omnintell Labs",
+    "siteDescription": "Official portfolio of Omkareshwar Sinha, CEO & Founder of Omnintell Technologies and Omnintell Labs. 10th Grade Innovator from MPS Khamariya, Chhattisgarh, India. Creator of Jarvis AI, Om AI, and Aegisv18 Elite.",
+    "footerText": "OMNINTELL TECHNOLOGIES · OMNINTELL LABS",
+    "logoText": "OMNINTELL",
+    "branding": "Omnintell Technologies & Omnintell Labs",
+    "themeConfig": {
+      "preset": "google-flow",
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#8B5CF6",
+      "accentGlow": "#38BDF8",
+      "bgDark": "#050811",
+      "bgLight": "#F8FAFC",
+      "cardBg": "rgba(12, 17, 28, 0.85)",
+      "glowIntensity": "vibrant",
+      "flowSpeed": "normal",
+      "enableFlowShaders": true,
+      "action": "save_theme",
+      "token": "omn_3a9a092e0391dcddb497cb83f906b9735c19a30c6a6777d4d4977756a37fdd9c"
+    },
+    "action": "save_global",
+    "token": "omn_3a9a092e0391dcddb497cb83f906b9735c19a30c6a6777d4d4977756a37fdd9c"
+  },
+  "themeConfig": {
+    "preset": "google-flow",
+    "primaryColor": "#00F0FF",
+    "secondaryColor": "#8B5CF6",
+    "accentGlow": "#38BDF8",
+    "bgDark": "#050811",
+    "bgLight": "#F8FAFC",
+    "cardBg": "rgba(12, 17, 28, 0.85)",
+    "glowIntensity": "vibrant",
+    "flowSpeed": "normal",
+    "enableFlowShaders": true,
+    "action": "save_theme",
+    "token": "omn_3a9a092e0391dcddb497cb83f906b9735c19a30c6a6777d4d4977756a37fdd9c"
+  },
+  "hero": {
+    "eyebrow": "OMNINTELL TECHNOLOGIES · OMNINTELL LABS",
+    "titleLine1": "HEY",
+    "titleLine2": "I'M OMKARESHWAR",
+    "subtitle": "CEO & FOUNDER — OMNINTELL TECHNOLOGIES · CEO & FOUNDER — OMNINTELL LABS",
+    "description": "Building intelligent technology for the real world.",
+    "labels": [
+      "AI SYSTEMS",
+      "CYBERSECURITY",
+      "AUTOMATION",
+      "SOFTWARE",
+      "R&D LABS"
+    ],
+    "ctaText": "Explore My Work",
+    "ctaLink": "#projects",
+    "secondaryCtaText": "Get In Touch",
+    "secondaryCtaLink": "#contact",
+    "statusText": "10th Grade Innovator · MPS Khamariya · Systems Architect",
+    "action": "save_hero",
+    "token": "omn_3a9a092e0391dcddb497cb83f906b9735c19a30c6a6777d4d4977756a37fdd9c"
+  },
+  "about": {
+    "sectionTitle": "ABOUT ME",
+    "heading": "About me",
+    "shortBio": "CEO & Founder of Omnintell Technologies and Omnintell Labs based in Chhattisgarh, India. 10th Grade Innovator from Mothers Pride School (MPS) Khamariya. A full stack developer, ethical hacker, and AI architect building intelligent technology for the real world — creator of Jarvis AI, Om AI, and Aegis.",
+    "longBio": "CEO & Founder of Omnintell Technologies and Omnintell Labs based in Chhattisgarh, India. 10th Grade Innovator from Mothers Pride School (MPS) Khamariya. A full stack developer, ethical hacker, and AI architect building intelligent technology for the real world — creator of Jarvis AI, Om AI, and Aegis.",
+    "institutionText": "Mothers Pride School (MPS) Khamariya (Educational Institution Context), Chhattisgarh, India",
+    "capabilities": [
+      "AI Architecture & LLM Systems",
+      "Defensive Cybersecurity & Hardening",
+      "Interactive 3D & WebGL Spatial Shaders",
+      "High-Scale Autonomous Software"
+    ],
+    "highlights": [
+      "Creator of Jarvis AI Autonomous Assistant",
+      "Architect of Om AI Cognitive Framework",
+      "Developer of Aegisv18 Elite Defense Mesh"
+    ],
+    "ctaText": "Contact Founder",
+    "action": "save_about",
+    "token": "omn_853eb9d3057a1ca34f42dcccdd6596aa819da538e842c30d4194ff3ec52e1963"
+  },
+  "services": [
+    {
+      "id": 1,
+      "title": "AI Systems & Autonomous Agents",
+      "description": "Architecting neural workflow orchestration, autonomous voice agents, multi-agent frameworks, and local LLM edge execution pipelines.",
+      "icon": "Cpu",
+      "link": "#projects"
+    },
+    {
+      "id": 2,
+      "title": "Enterprise Cybersecurity & Zero-Trust",
+      "description": "Engineered defensive grids, penetration testing, network packet inspection, vulnerability auditing, and hardened cryptographic infrastructure.",
+      "icon": "Shield",
+      "link": "#projects"
+    },
+    {
+      "id": 3,
+      "title": "Interactive 3D & Spatial Computing",
+      "description": "Photorealistic 3D hard-surface modeling, real-time WebGL spatial shaders, kinetic typography, and physical-depth interactive web engines.",
+      "icon": "Box",
+      "link": "#projects"
+    },
+    {
+      "id": 4,
+      "title": "High-Scale Software & Cloud Systems",
+      "description": "Full-stack reactive web applications, resilient Express/Node and Python microservices, distributed API layers, and production automation pipelines.",
+      "icon": "Terminal",
+      "link": "#projects"
+    }
+  ],
+  "skills": [
+    {
+      "id": 1,
+      "name": "AI Architecture & LLM Systems",
+      "category": "Intelligence",
+      "description": "Autonomous agents, neural intent parsing, local model inference pipelines, and cognitive reasoning engines.",
+      "technologies": [
+        "PyTorch",
+        "HuggingFace",
+        "LangChain",
+        "FastAPI",
+        "Python"
+      ],
+      "icon": "Cpu",
+      "level": 95
+    },
+    {
+      "id": 2,
+      "name": "Defensive Cybersecurity & Penetration Testing",
+      "category": "Security",
+      "description": "Zero-trust network architectures, vulnerability auditing, packet inspection, and penetration testing tools.",
+      "technologies": [
+        "Wireshark",
+        "Burp Suite",
+        "Nmap",
+        "Metasploit",
+        "Linux Hardening"
+      ],
+      "icon": "Shield",
+      "level": 92
+    },
+    {
+      "id": 3,
+      "name": "Interactive 3D & WebGL Spatial Computing",
+      "category": "3D & Motion",
+      "description": "Hard surface 3D asset engineering, real-time Three.js spatial environments, GLSL shaders, and physical scroll transforms.",
+      "technologies": [
+        "Three.js",
+        "WebGL",
+        "Blender",
+        "GLSL",
+        "React Three Fiber"
+      ],
+      "icon": "Box",
+      "level": 96
+    },
+    {
+      "id": 4,
+      "name": "Full Stack Web & Reactive Architecture",
+      "category": "Engineering",
+      "description": "Production TypeScript SPAs, Tailwind CSS systems, Node/Express proxy architectures, and modern component design.",
+      "technologies": [
+        "TypeScript",
+        "React",
+        "Node.js",
+        "Express",
+        "Tailwind CSS"
+      ],
+      "icon": "Terminal",
+      "level": 94
+    },
+    {
+      "id": 5,
+      "name": "Python R&D & Systems Automation",
+      "category": "Engineering",
+      "description": "Automated workflow scripts, OS-level neural system bridges, asynchronous background tasks, and data engineering.",
+      "technologies": [
+        "Python 3",
+        "AsyncIO",
+        "NumPy",
+        "Pandas",
+        "Automation Bots"
+      ],
+      "icon": "Layers",
+      "level": 91
+    },
+    {
+      "id": 6,
+      "name": "Brand Identity & Spatial Design Systems",
+      "category": "Creative",
+      "description": "Dark glass aesthetic direction, metallic gradient typography, visual hierarchies, and high-frequency motion choreography.",
+      "technologies": [
+        "Figma",
+        "Design Tokens",
+        "Typography",
+        "Color Science"
+      ],
+      "icon": "Palette",
+      "level": 89
+    }
+  ],
+  "certificates": [
+    {
+      "id": 1,
+      "title": "AI & Deep Learning Architecture",
+      "issuer": "Omnintell Labs / Advanced Research Program",
+      "image": "cert_1.png",
+      "date": "2024",
+      "credentialId": "OL-AI-2024-089",
+      "credentialUrl": "https://omnintell.tech/verify/ai-arch",
+      "description": "Comprehensive validation in generative AI architecture, transformer architectures, and autonomous agent orchestration."
+    },
+    {
+      "id": 2,
+      "title": "Ethical Hacking & Web Penetration Testing",
+      "issuer": "Cyber Defense Initiative · MPS Khamariya",
+      "image": "cert_2.png",
+      "date": "2024",
+      "credentialId": "CDI-SEC-2024-114",
+      "credentialUrl": "https://omnintell.tech/verify/cyber-sec",
+      "description": "Enterprise penetration testing certification covering network vulnerability scanning, credential auditing, and security hardening."
+    },
+    {
+      "id": 3,
+      "title": "Advanced 3D Modeling & Cinematic Animation",
+      "issuer": "Global Motion & 3D Creators Guild",
+      "image": "cert_3.png",
+      "date": "2023",
+      "credentialId": "GMCG-3D-2023-501",
+      "credentialUrl": "https://omnintell.tech/verify/3d-motion",
+      "description": "Certification in hard surface spatial modeling, real-time procedural shaders, and kinetic visual compositions."
+    },
+    {
+      "id": 4,
+      "title": "Full-Stack Enterprise Systems & Cloud Deployment",
+      "issuer": "Omnintell Technologies Technical Division",
+      "image": "cert_4.png",
+      "date": "2023",
+      "credentialId": "OT-FSD-2023-339",
+      "credentialUrl": "https://omnintell.tech/verify/cloud-dev",
+      "description": "Mastery in full stack reactive engineering, microservice design, Linux deployment pipelines, and session security."
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "Jarvis AI Autonomous System",
+      "category": "AI Systems & Intelligence",
+      "shortDescription": "Multimodal autonomous assistant system with natural language reasoning, automated workflows, and system-level neural integrations.",
+      "description": "Custom autonomous voice and system intelligence assistant powered by neural speech models, NLP intent parsing, and local LLM execution pipelines built at Omnintell Labs.",
+      "url": "https://omnintell.tech",
+      "sourceUrl": "https://github.com/omkareshwarsinha/jarvis-ai",
+      "status": "Production R&D",
+      "featured": true,
+      "year": "2024",
+      "technologies": [
+        "Python",
+        "Neural Speech",
+        "LLM APIs",
+        "System Integration"
+      ],
+      "image": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260412_055344_5eff02e0-87a5-41ce-b64f-eb08da8f33db.png&w=1280&q=85",
+      "images": [
+        "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260412_055344_5eff02e0-87a5-41ce-b64f-eb08da8f33db.png&w=1280&q=85",
+        "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260412_055431_11d841fd-8b41-46a5-82e4-b04f2407a7d8.png&w=1280&q=85",
+        "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260412_055451_e317bf2d-28d4-48cc-86b0-6f72f25b6327.png&w=1280&q=85"
+      ],
+      "tags": [
+        "AI Agents",
+        "Python",
+        "Voice Assistant",
+        "LLMs"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Om AI Cognitive Framework",
+      "category": "Neural Engine & LLM",
+      "shortDescription": "Omnintell Labs proprietary generative intelligence engine designed for edge execution, low-latency reasoning, and complex tasks.",
+      "description": "Next-generation generative AI and reasoning engine engineered for code generation, semantic data research, and dynamic conversational workflows developed at Omnintell Technologies.",
+      "url": "https://omnintell.tech",
+      "sourceUrl": "https://github.com/omkareshwarsinha/om-ai",
+      "status": "Active R&D",
+      "featured": true,
+      "year": "2024",
+      "technologies": [
+        "Generative AI",
+        "Neural Networks",
+        "React",
+        "Python"
+      ],
+      "image": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260412_055654_911201c5-36d9-4bc6-bac7-331adfce159f.png&w=1280&q=85",
+      "images": [
+        "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260412_055654_911201c5-36d9-4bc6-bac7-331adfce159f.png&w=1280&q=85",
+        "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260412_055723_5ceda0b8-d9c2-4665-b2e3-83ba19ba76d1.png&w=1280&q=85",
+        "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260412_055753_adc5dcbd-a8e6-49c0-b43a-9b030d835cea.png&w=1280&q=85"
+      ],
+      "tags": [
+        "Generative AI",
+        "Neural Networks",
+        "React",
+        "Python"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Aegisv18 Elite Defensive Grid",
+      "category": "Cybersecurity & Zero-Trust",
+      "shortDescription": "Enterprise cyber defensive mesh engineered with automated threat detection, packet inspection, and air-gapped cryptography.",
+      "description": "Comprehensive cybersecurity penetration testing toolkit and anomaly detection engine designed for hardening enterprise networks against modern threat vectors.",
+      "url": "https://omnintell.tech",
+      "sourceUrl": "https://github.com/omkareshwarsinha/aegisv18-elite",
+      "status": "Deployed",
+      "featured": true,
+      "year": "2024",
+      "technologies": [
+        "Zero-Trust",
+        "Packet Inspection",
+        "Network Security",
+        "Cryptography"
+      ],
+      "image": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260412_055759_963cfb0b-4bd1-4b0f-9d0a-09bd6cf95b2f.png&w=1280&q=85",
+      "images": [
+        "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260412_055759_963cfb0b-4bd1-4b0f-9d0a-09bd6cf95b2f.png&w=1280&q=85",
+        "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260412_060108_438f781a-9846-4dcc-89ab-c4e6cb830f5b.png&w=1280&q=85",
+        "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260412_055818_9d062121-ad7e-46b9-999a-1a6a692ef1ee.png&w=1280&q=85"
+      ],
+      "tags": [
+        "Ethical Hacking",
+        "Penetration Testing",
+        "Network Defense"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Nextlevel Studio 3D Spatial Environment",
+      "category": "Spatial 3D & WebGL",
+      "shortDescription": "Comprehensive 3D environment branding and spatial interactive portfolio.",
+      "description": "Crafted with custom lighting textures, photorealistic models, and high-frequency motion animations in WebGL.",
+      "url": "https://omnintell.tech",
+      "status": "Completed",
+      "featured": false,
+      "year": "2023",
+      "technologies": [
+        "3D Modeling",
+        "Branding",
+        "WebGL",
+        "Three.js"
+      ],
+      "image": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260412_055451_e317bf2d-28d4-48cc-86b0-6f72f25b6327.png&w=1280&q=85",
+      "images": [
+        "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260412_055451_e317bf2d-28d4-48cc-86b0-6f72f25b6327.png&w=1280&q=85",
+        "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260412_055344_5eff02e0-87a5-41ce-b64f-eb08da8f33db.png&w=1280&q=85",
+        "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260412_055431_11d841fd-8b41-46a5-82e4-b04f2407a7d8.png&w=1280&q=85"
+      ],
+      "tags": [
+        "3D Modeling",
+        "Branding",
+        "WebGL"
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "id": 1,
+      "platform": "instagram",
+      "label": "@jarvisom18",
+      "url": "https://instagram.com/jarvisom18",
+      "isPrimary": true
+    },
+    {
+      "id": 2,
+      "platform": "instagram",
+      "label": "@om__01037",
+      "url": "https://instagram.com/om__01037",
+      "isPrimary": true
+    },
+    {
+      "id": 3,
+      "platform": "email",
+      "label": "omkareshwarsinha6@gmail.com",
+      "url": "mailto:omkareshwarsinha6@gmail.com",
+      "isPrimary": true
+    },
+    {
+      "id": 4,
+      "platform": "linkedin",
+      "label": "LinkedIn Profile",
+      "url": "https://www.linkedin.com/in/omkareshwar-sinha",
+      "isPrimary": false
+    },
+    {
+      "id": 5,
+      "platform": "github",
+      "label": "GitHub",
+      "url": "https://github.com/omkareshwarsinha",
+      "isPrimary": false
+    },
+    {
+      "id": 6,
+      "platform": "twitter",
+      "label": "X / Twitter",
+      "url": "https://x.com/omkareshwarsin",
+      "isPrimary": false
+    }
+  ],
+  "seo": {
+    "seoTitle": "Omkareshwar Sinha — CEO & Founder | Omnintell Technologies & Omnintell Labs",
+    "metaDescription": "Official portfolio of Omkareshwar Sinha, CEO & Founder of Omnintell Technologies and Omnintell Labs. 10th Grade Innovator from MPS Khamariya, Chhattisgarh, India. Creator of Jarvis AI, Om AI, and Aegisv18 Elite.",
+    "canonicalUrl": "https://omnintell.tech/",
+    "socialPreviewTitle": "Omkareshwar Sinha — CEO & Founder | Omnintell Technologies & Omnintell Labs",
+    "socialPreviewDescription": "Building intelligent technology for the real world. Omnintell Technologies & Omnintell Labs — AI, Cybersecurity, Software & 3D Systems.",
+    "ogImage": "/assets/omnintell_globe_hero.jpg",
+    "twitterImage": "/assets/omnintell_globe_hero.jpg",
+    "robots": "index, follow, max-image-preview:large",
+    "siteKeywords": "Omkareshwar Sinha, Om Sinha, Omnintell, Omnintell Technologies, Omnintell Labs, Omnintell Studio, Omnintell AI, Omnintell Software, Omnintell Automation, Omnintell Cybersecurity, Omnintell R&D, Omnintell Projects, Omnintell Portfolio, Mothers Pride School, MPS Khamariya, Jarvis AI, Om AI, Aegisv18 Elite",
+    "schemaDescription": "Official identity and portfolio of Omkareshwar Sinha, CEO & Founder of Omnintell Technologies and Omnintell Labs. Educational institution context: Mothers Pride School (MPS) Khamariya, Chhattisgarh, India."
+  }
+}

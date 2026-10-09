@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /failed_logins.json
+Disallow: /data.json
+
+Sitemap: https://omnintell.tech/sitemap.xml
